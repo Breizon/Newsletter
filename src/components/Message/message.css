@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.container_msg {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 3.5rem;
+}
+.content_title {
+  font-size: 3.5rem;
+  margin: 2rem 0 1rem 0;
+}
+.content_subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+.check_msg {
+  font-size: 4rem;
+  color: #ff6257;
+}
+.form_submit {
+  font-family: inherit;
+  padding: 15px 30px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+.form_submit {
+  background-color: var(--color-bg);
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.form_submit:hover {
+  transform: scale(1.05);
+  background-color: #ff6257;
+}
+.email {
+  font-weight: 700;
+}
+
+/* ==================== media querys (medium)================== */
+@media screen and (max-width: 775px) {
+  .container_msg {
+    height: 100vh;
+    justify-content: center;
+    left: auto;
+    right: auto;
+  }
+  .content_subtitle_msg {
+    font-size: 1.5rem;
+  }
+  .check_msg {
+    font-size: 7rem;
+  }
+  .form_submit_msg {
+    font-size: 1.2rem;
+    padding: 25px 40px;
+    margin-top: 25em;
+  }
+}
